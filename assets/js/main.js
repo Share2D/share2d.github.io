@@ -105,6 +105,12 @@
         }, 600);
         return false;
       });
+	  
+	      
+    $('.counter-animate').counterUp({
+        delay: 10,
+        time: 1500
+    });
 
     //   Form Submit Handler
     const form = document.getElementById('contactForm');
