@@ -120,7 +120,7 @@
         const name = document.getElementById('name').value;
         const phone = document.getElementById('phone').value;
         const message = document.getElementById('message').value;
-        fetch('/api/lead/contact_us', {
+        fetch('http://3.20.116.189/lead/contact_us', {
            method: 'POST',
            mode: 'cors',
            headers: {
